@@ -1,0 +1,18 @@
+---------------------------------------
+** web server
+
+npm init = web server node js
+npm init -y
+---------------------------------------
+** nodemon
+npm install nodemon
+npx nodemon index.js
+
+ใส่ "start":"nodemon ./bin/www" ใต้   "scripts": { ใน package.json
+---------------------------------------
+้http status code
+200 ok (ดำเนินการเสร็จสมบูรณ์)
+201 create (สร้างข้อมูลให่เรียบร้อย)
+400 bad require (server ไม่เข้าใจ request นี้เกี่ยวกับอะไร)
+404 not found (หาข้อมูลที่เรียกไม่เจอหรือไม่สามารถใช้งานได้)
+500 internal server error (request ถุกต้องแต่มีขอ้ผิดพลาดที่ฝั่ง server)

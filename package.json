@@ -1,0 +1,16 @@
+{
+  "name": "node_js_basic",
+  "version": "1.0.0",
+  "description": "node js for begin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
